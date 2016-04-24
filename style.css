@@ -1,0 +1,156 @@
+#header{
+	/*border:1px dashed blue;*/
+	width:100%; height: 30px;
+	position:fixed;
+	top: 20px; left:0; right:0;
+	min-width: 980px;
+}
+
+#headerlinks{
+	/*border:1px dashed red;*/
+	float:right;
+	font-family: Arial, sans-serif;
+	height: 30px;
+	margin-right:30px;
+}
+
+.headerlinks {
+	height: 30px;
+	display: inline-block;
+	margin:0 0 0 0;
+	vertical-align: middle;
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+
+.headerlinkimage{
+	height:15px;
+	top:0;
+	vertical-align: middle;
+}
+
+.circleimage{
+	height:25px;
+	vertical-align: middle;
+	top:0;
+} 
+
+
+#body{
+	background-color:white;
+	width:100%;
+}
+
+#center{
+	/*border: 1px dashed blue;*/
+	height:233px; width: 100%;
+	margin-top: 89px;
+	text-align: center;
+}
+
+#searchform{
+	/*border:1px dashed blue;*/
+	width:100%; height: 128px;
+	/*display: block;*/
+}
+
+#searchbox{
+	border:1px solid blue;
+	margin:auto;
+	width:580px; height: 36px;
+	padding: 5px 9px 0px 9px;
+	/*display: block;*/
+	/*float:left;*/
+}
+
+#mic{
+	height:28px;
+	top:-22px;
+	/*display: block;*/
+	float:right;
+}
+
+
+#buttonbox{
+	/*border:1px dashed blue;*/
+	margin:auto;
+	width:484px; height: 58px;
+	padding-top: 18px;
+	text-align: center;
+}
+
+.button{
+	border:1px solid #f2f2f2;
+	background-color:#f2f2f2;
+	border-radius: 2px;
+	width: 110px; height: 34px;
+	display:inline-block;
+	margin:11px 4px 11px 4px;
+	padding:0px 16px 0px 16px;
+	color:#757575;
+
+}
+
+.button:hover{
+	border-color:#c6c6c6;
+	color:#222;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+.buttontext{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 10px;
+}
+
+#footer{
+	background-color: #f2f2f2;
+	width:100%; height:40px;
+	min-width: 980px;
+	bottom:0; left:0; right:0;
+	position:fixed;
+	border-top:1px solid #e4e4e4;
+	text-decoration: none;
+	font-family: Arial,sans-serif;
+}
+
+#footerspanright{
+	float:right;
+	margin-right: 30px;
+}
+
+#footerspanleft{
+	float:left;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 40px;
+	color: #666;
+	display:inline-block;
+	padding-left: 27px;
+}
+
+img {
+	height:92px; 
+	text-align: center;
+	top:110px;
+	position: relative;
+}
+
+input{
+	border:none;
+	width:445px; 
+	margin-top: 8px;
+	display: block;
+
+}
+
+input:focus{
+	outline:none;
+}
